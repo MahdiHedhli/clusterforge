@@ -2,6 +2,12 @@
 
 ClusterForge develops Kubernetes engineering and security competency in parallel. The levels describe increasing capability, not course length or organizational seniority.
 
+## Authored 200/300 curricula
+
+Start with the [integrated route](levels-200-300.md), then select [K8S-200](kubernetes/k8s-200/README.md), [K8S-300](kubernetes/k8s-300/README.md), [SEC-200](security/sec-200/README.md), or [SEC-300](security/sec-300/README.md).
+
+Each track contains six lessons and a practical gate. These are authored Draft curricula, with fixture contracts and synthetic analytical packets. Live runtime qualification and learner evidence are separate. The release does not bundle runnable provisioning or live-lab manifests.
+
 ## Kubernetes track
 
 ### K8S-100: Foundations
@@ -52,8 +58,8 @@ Outcome: contribute to advanced platform security, confidential-compute architec
 
 ## Assessment model
 
-ClusterForge uses a mixture of knowledge checks, hands-on labs, troubleshooting incidents, adversarial scenarios, architecture exercises, and technical explanation. Higher levels increasingly favor practical and scenario-based evidence over multiple-choice knowledge assessment.
+ClusterForge uses knowledge checks, hands-on labs, troubleshooting incidents, adversarial scenarios, architecture exercises and technical explanation. Higher levels increasingly favor practical and scenario-based evidence over recall. See the [shared rubric](../assessments/README.md) and keep guided practice separate from independent assessment.
 
 ## External certification relationship
 
-The Kubernetes curriculum overlaps with competencies found in KCNA, CKA, CKAD, and CKS. ClusterForge is not an exam-prep product and is not affiliated with or endorsed by CNCF or the Linux Foundation. External certifications are useful validation points, while ClusterForge intentionally extends into troubleshooting, adversarial security, customer architecture, and accelerated compute.
+The curriculum overlaps with competencies found in KCNA, CKA, CKAD and CKS. ClusterForge is not an exam-prep product and is not affiliated with or endorsed by CNCF or the Linux Foundation. The [crosswalk](../docs/certification-map.md) identifies overlap and remaining hands-on gaps rather than claiming complete exam coverage.

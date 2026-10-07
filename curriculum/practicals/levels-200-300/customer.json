@@ -1,0 +1,19 @@
+{
+  "synthetic": true,
+  "scenario_id": "CF-CUSTOMER-01",
+  "customer": "Fictional research organization",
+  "workload": "Model training, checkpoint recovery and a separate inference service",
+  "assets": ["confidential training data", "model weights", "checkpoints", "build artifacts", "administrative credentials", "audit evidence"],
+  "requirements": [
+    {"id": "R1", "statement": "Separate development and production identities and data access."},
+    {"id": "R2", "statement": "Use an approved private administration path and attributable identities."},
+    {"id": "R3", "statement": "Approve external artifact retrieval explicitly; keep training data within approved destinations."},
+    {"id": "R4", "statement": "Make temporary diagnostics access scoped, owned, reviewed and removable."},
+    {"id": "R5", "statement": "Retain retrievable administrative evidence for 90 days as a fictional business requirement, not a legal mandate."},
+    {"id": "R6", "statement": "Verify checkpoint integrity before resuming training."},
+    {"id": "R7", "statement": "Justify compute, network and storage tenant boundaries and identify privileged bypass actors."},
+    {"id": "R8", "statement": "Preserve an approved legitimate client path after hardening."}
+  ],
+  "unknowns": ["Accelerator model and sharing mode", "Administrator access model", "Storage authorization", "Audit collection and retention", "Availability and recovery objectives", "Trusted artifact signing identities"],
+  "task": "Ask discovery questions, compare designs, map controls to evidence and record unsupported assumptions."
+}

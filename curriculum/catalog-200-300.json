@@ -1,0 +1,13 @@
+{
+  "schema_version": 1,
+  "release": "0.2",
+  "content_status": "Draft",
+  "runtime_validation": "NOT_RUN",
+  "learner_progress": "NOT_RECORDED",
+  "tracks": [
+    {"id": "K8S-200", "path": "curriculum/kubernetes/k8s-200/README.md", "assessment": "assessments/k8s-200.md", "lessons": ["01-rollouts.md", "02-scheduling.md", "03-networking.md", "04-storage.md", "05-observability.md", "06-lifecycle.md"]},
+    {"id": "SEC-200", "path": "curriculum/security/sec-200/README.md", "assessment": "assessments/sec-200.md", "lessons": ["01-identity.md", "02-authorization.md", "03-segmentation.md", "04-encryption.md", "05-auditability.md", "06-posture.md"]},
+    {"id": "K8S-300", "path": "curriculum/kubernetes/k8s-300/README.md", "assessment": "assessments/k8s-300.md", "lessons": ["01-rbac.md", "02-hardening.md", "03-network-policy.md", "04-secrets-supply-chain.md", "05-runtime.md", "06-investigation.md"]},
+    {"id": "SEC-300", "path": "curriculum/security/sec-300/README.md", "assessment": "assessments/sec-300.md", "lessons": ["01-architecture.md", "02-threat-modeling.md", "03-isolation.md", "04-ai-workloads.md", "05-incident-response.md", "06-assurance.md"]}
+  ]
+}
