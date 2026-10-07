@@ -1,0 +1,14 @@
+{
+  "synthetic": true,
+  "scenario_id": "CF-INCIDENT-01",
+  "format": "Normalized fictional observations for analysis, not raw audit logs or evidence of a real incident.",
+  "observations": [
+    {"id": "E1", "minute": 0, "source": "API summary", "actor": "fictional workload reader", "action": "Read training ConfigMap", "outcome": "success reported"},
+    {"id": "E2", "minute": 1, "source": "API summary", "actor": "fictional workload reader", "action": "Read training Secret", "outcome": "denial reported"},
+    {"id": "E3", "minute": 2, "source": "API summary", "actor": "fictional lab operator", "action": "Request diagnostic execution in client Pod", "outcome": "accepted", "business_approval": "not supplied"},
+    {"id": "E4", "minute": 2.1, "source": "Runtime summary", "workload": "client Pod", "action": "Diagnostic process observed", "exact_container_identity": "not supplied"},
+    {"id": "E5", "minute": 6, "source": "API summary", "actor": "fictional lab administrator", "action": "Remove reader RoleBinding", "outcome": "success reported"}
+  ],
+  "gaps": ["No network-transfer evidence", "No proof of who possessed the workload credential", "No post-removal authorization test", "No downstream credential invalidation evidence", "No complete binding inventory", "No exact process-to-request correlation"],
+  "task": "Separate facts, inferences and unknowns; request discriminating evidence; propose proportionate containment without claiming it was executed."
+}

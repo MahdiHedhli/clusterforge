@@ -1,0 +1,14 @@
+{
+  "synthetic": true,
+  "scenario_id": "CF-IDENTITY-01",
+  "format": "Descriptive teaching data. No signed token, credential or live endpoint is included.",
+  "contract": {"issuer_label": "training-issuer", "audience": "clusterforge-lab", "authorized_group": "project-readers"},
+  "evaluation_minute": 10,
+  "claim_descriptors": [
+    {"id": "A", "issuer_label": "training-issuer", "audience": "clusterforge-lab", "subject": "fictional-contractor", "groups": ["project-readers"], "issued_minute": 0, "expiry_minute": 30, "signature_evidence": "not supplied"},
+    {"id": "B", "issuer_label": "training-issuer", "audience": "another-service", "subject": "fictional-contractor", "groups": ["project-readers"], "issued_minute": 0, "expiry_minute": 30, "signature_evidence": "not supplied"}
+  ],
+  "provisioning_observation": {"minute": 5, "change": "User marked inactive and removed from directory group", "reported_by": "fictional provisioning service"},
+  "unknowns": ["Cryptographic validation", "Token and session invalidation behavior", "Resource-server group refresh", "Whether any live request succeeded"],
+  "task": "Identify the decisions that remain necessary at authentication and authorization boundaries, then design a separate workload-federation trust contract."
+}
